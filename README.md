@@ -6,9 +6,12 @@ This project was developed using an AI-assisted vibe coding workflow focused on 
 - Break timer
 - Start Pause Reset buttons
 - Responsive UI, smooth animation, modern aesthetic design
-- Dark mode option.
+- Dark mode option
 
 ## Tech Stack
 - HTML
 - CSS
 - JavaScript
+
+## Live Demo
+https://nvndita.github.io/pomodoro-timer-app/app/
