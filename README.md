@@ -1,10 +1,14 @@
-# pomodoro-timer-app
-This repository demonstrates two different software development workflows for building the same Pomodoro Timer application.
+# Pomodoro Timer App - Vibe Coding
+This project was developed using an AI-assisted vibe coding workflow focused on experimentation and interactive prompting.
 
-## Branches
+## Features
+- Work timer
+- Break timer
+- Start Pause Reset buttons
+- Responsive UI, smooth animation, modern aesthetic design
+- Dark mode option.
 
-### vibe_coded_submission
-AI-assisted vibe coding workflow focused on experimentation and interactive prompting.
-
-### sdd_submission
-Spec Driven Development (SDD) workflow focused on structured planning, documentation and systematic implementation.
+## Tech Stack
+- HTML
+- CSS
+- JavaScript
