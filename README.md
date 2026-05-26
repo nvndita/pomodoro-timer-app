@@ -1,10 +1,25 @@
-# pomodoro-timer-app
-This repository demonstrates two different software development workflows for building the same Pomodoro Timer application.
+# Pomodoro Timer App — Spec Driven Development
+This branch demonstrates a Spec Driven Development (SDD) workflow for building a Pomodoro Timer application.
+The project focuses on structured planning, organized implementation and documentation-first software engineering practices.
 
-## Branches
+## Project Structure
 
-### vibe_coded_submission
-AI-assisted vibe coding workflow focused on experimentation and interactive prompting.
+app/
+- index.html
+- style.css
+- script.js
 
-### sdd_submission
-Spec Driven Development (SDD) workflow focused on structured planning, documentation and systematic implementation.
+openspec/
+- task.md
+
+## Features
+- Work timer
+- Break timer
+- Start Pause Reset buttons
+- Responsive UI, smooth animation, modern aesthetic design
+- Dark mode option
+
+## Tech Stack
+- HTML
+- CSS
+- JavaScript
