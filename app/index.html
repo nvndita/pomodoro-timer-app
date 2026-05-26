@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Glassmorphism Pomodoro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+
+    <button id="theme-toggle" class="theme-btn glass" aria-label="Toggle Dark Mode">
+        <svg id="moon-icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+        <svg id="sun-icon" class="hidden" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+    </button>
+
+    <div class="card glass">
+        <div class="status-container">
+            <span id="mode-text">Work Session</span>
+        </div>
+        
+        <div class="timer-wrapper">
+            <svg class="progress-ring" width="260" height="260">
+                <circle class="progress-ring__track" stroke-width="6" fill="transparent" r="120" cx="130" cy="130"/>
+                <circle class="progress-ring__circle" stroke-width="10" fill="transparent" r="120" cx="130" cy="130"/>
+            </svg>
+            <div class="timer-container" id="timer-display">
+                25:00
+            </div>
+        </div>
+        
+        <div class="controls">
+            <button id="start-btn" class="btn primary-btn glass-btn">Start</button>
+            <button id="pause-btn" class="btn secondary-btn glass-btn" disabled>Pause</button>
+            <button id="reset-btn" class="btn danger-btn glass-btn">Reset</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
