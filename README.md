@@ -1,4 +1,4 @@
-# Pomodoro Timer App — Spec Driven Development
+# Pomodoro Timer App - Spec Driven Development
 This branch demonstrates a Spec Driven Development (SDD) workflow for building a Pomodoro Timer application.
 The project focuses on structured planning, organized implementation and documentation-first software engineering practices.
 
